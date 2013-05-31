@@ -96,7 +96,16 @@ public class Mindcrack
                   'C', CheeseItem
         });
     }
-
+    
+    private void languageRegisters() {
+    	GameRegistry.registerItem([CheeseItem, "Cheese");
+        
+    }   
+    
+    private void gameRegisters() {
+    	LanguageRegistry.addName(CheeseItem, "Cheese");
+        
+    }
 
     public static int getUniqueEntityId()
         {
